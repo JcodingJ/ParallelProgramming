@@ -16,14 +16,34 @@ namespace ParallelProgramming.ConsoleApp
                 Console.Write(c);
             }
         }
+        public static void Write(object o)
+        {
+            int i = 1000;
+            while (i-- > 0)
+            {
+                Console.Write(o);
+            }
+        }
+
+        public static int TextLength(object o)
+        {
+            Console.WriteLine($"\n Task with id {Task.CurrentId} is currently processing object {o}...");
+            return o.ToString().Length;
+        }
+
         public static void Main(string[] args)
         {
-            Task.Factory.StartNew(() => Write('.'));
+            string text1 = "testing";
+            string text2 = "this";
 
-            var t = new Task(() => Write('?'));
-            t.Start();
+            var task1 = new Task<int>(TextLength, text1);
+            task1.Start();
 
-            Write('-');
+            Task<int> task2 =  Task.Factory.StartNew<int>(TextLength, text2);
+
+
+            Console.WriteLine($"Length of {text1} is {task1.Result}");
+            Console.WriteLine($"Length of {text2} is {task2.Result}");
 
             Console.WriteLine("Main program done.");
             Console.ReadLine();
