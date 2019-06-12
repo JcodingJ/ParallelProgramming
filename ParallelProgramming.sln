@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{3A4E13D5-C6F9-40
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.DataAccess", "ConsoleApp5\ParallelProgramming.DataAccess.csproj", "{70044484-93B9-437D-A7A6-7617E2F863CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.LockRecursion", "ConsoleApp6\ParallelProgramming.LockRecursion.csproj", "{DBB566C2-624E-4B9A-810A-83BE8342EB7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{70044484-93B9-437D-A7A6-7617E2F863CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70044484-93B9-437D-A7A6-7617E2F863CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70044484-93B9-437D-A7A6-7617E2F863CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB566C2-624E-4B9A-810A-83BE8342EB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB566C2-624E-4B9A-810A-83BE8342EB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB566C2-624E-4B9A-810A-83BE8342EB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB566C2-624E-4B9A-810A-83BE8342EB7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{91811AA7-07E0-410D-9E13-86C11D8B23CA} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
 		{BE1F7289-317C-4080-85D7-B445AB722485} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
 		{70044484-93B9-437D-A7A6-7617E2F863CD} = {3A4E13D5-C6F9-4053-AF3A-87D469017854}
+		{DBB566C2-624E-4B9A-810A-83BE8342EB7B} = {3A4E13D5-C6F9-4053-AF3A-87D469017854}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAB15D68-31A1-4BE4-B06D-C902CDB05FB8}
