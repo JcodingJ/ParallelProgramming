@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
     public class BankAccount
     {
-        public object padlock = new object();
-        public int Balance { get; private set; }
-        public void Deposit(int amout)
+        private int balance;
+        public int Balance
         {
-            lock(padlock)
-                Balance += amout;
+            get { return balance; }
+            private set { balance = value; }
+        }
+        public void Deposit(int amount)
+        {
+            Interlocked.Add(ref balance, amount);
         }
         public void Withdraw(int amount)
         {
-            lock (padlock)
-                Balance -= amount;
+            Interlocked.Add(ref balance, -amount);
         }
     }
     class Program
