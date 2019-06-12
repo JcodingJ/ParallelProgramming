@@ -25,7 +25,7 @@ namespace ConsoleApp1
                 {
                     paranoid.Token.ThrowIfCancellationRequested();
                     Console.WriteLine($"{i++}\t");
-                    Thread.Sleep(10);
+                    Thread.Sleep(100);
                 }
             }, paranoid.Token);
 
