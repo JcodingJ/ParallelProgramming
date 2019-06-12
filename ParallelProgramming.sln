@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.Startin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.CancellationToken", "ParallelProgramming.ConsoleApp2\ParallelProgramming.CancellationToken.csproj", "{18C48995-ECEE-476D-AC1D-2D25FECFE29D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.LinkedCancellationTokens", "ConsoleApp1\ParallelProgramming.LinkedCancellationTokens.csproj", "{F4A17C93-83CD-4383-9F81-E0CAB16601AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18C48995-ECEE-476D-AC1D-2D25FECFE29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18C48995-ECEE-476D-AC1D-2D25FECFE29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18C48995-ECEE-476D-AC1D-2D25FECFE29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A17C93-83CD-4383-9F81-E0CAB16601AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A17C93-83CD-4383-9F81-E0CAB16601AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A17C93-83CD-4383-9F81-E0CAB16601AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A17C93-83CD-4383-9F81-E0CAB16601AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
