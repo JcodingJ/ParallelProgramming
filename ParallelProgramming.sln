@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.MoreCan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming,WaitingForTasks", "ConsoleApp3\ParallelProgramming,WaitingForTasks.csproj", "{91811AA7-07E0-410D-9E13-86C11D8B23CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{458E496D-6F90-40B1-8EEF-129B6CC1665F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.HandlingExceptions", "ConsoleApp4\ParallelProgramming.HandlingExceptions.csproj", "{BE1F7289-317C-4080-85D7-B445AB722485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,21 @@ Global
 		{91811AA7-07E0-410D-9E13-86C11D8B23CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91811AA7-07E0-410D-9E13-86C11D8B23CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91811AA7-07E0-410D-9E13-86C11D8B23CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1F7289-317C-4080-85D7-B445AB722485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1F7289-317C-4080-85D7-B445AB722485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1F7289-317C-4080-85D7-B445AB722485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1F7289-317C-4080-85D7-B445AB722485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A833253-076C-4949-89F9-E4DADBAADD44} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
+		{18C48995-ECEE-476D-AC1D-2D25FECFE29D} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
+		{F4A17C93-83CD-4383-9F81-E0CAB16601AA} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
+		{35392881-7358-44C5-B048-738136591FAB} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
+		{91811AA7-07E0-410D-9E13-86C11D8B23CA} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
+		{BE1F7289-317C-4080-85D7-B445AB722485} = {458E496D-6F90-40B1-8EEF-129B6CC1665F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAB15D68-31A1-4BE4-B06D-C902CDB05FB8}
