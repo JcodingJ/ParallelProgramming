@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{0F57FCB8-1B7C-43
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.ConcurentDicts", "ParallelProgramming.ConcurentDicts\ParallelProgramming.ConcurentDicts.csproj", "{4C9E8BEC-1A4B-4DF4-AD70-DF5DB14E751E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.ConcurentQueuee", "ParallelProgramming.ConcurentQueue\ParallelProgramming.ConcurentQueuee.csproj", "{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4C9E8BEC-1A4B-4DF4-AD70-DF5DB14E751E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C9E8BEC-1A4B-4DF4-AD70-DF5DB14E751E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C9E8BEC-1A4B-4DF4-AD70-DF5DB14E751E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{975AE719-0DDA-4C15-BD03-7A301ABE4206} = {3A4E13D5-C6F9-4053-AF3A-87D469017854}
 		{317196B5-C3F6-4C98-84E4-35E31836B529} = {3A4E13D5-C6F9-4053-AF3A-87D469017854}
 		{4C9E8BEC-1A4B-4DF4-AD70-DF5DB14E751E} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
+		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAB15D68-31A1-4BE4-B06D-C902CDB05FB8}
