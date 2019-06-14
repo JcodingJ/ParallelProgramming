@@ -20,7 +20,7 @@ namespace ParallelProgramming.Mutex2
             }
             catch (WaitHandleCannotBeOpenedException e)
             {
-                Console.WriteLine("We can run program just fine");
+                Console.WriteLine("We can run program just fine" + e);
                 mutex = new Mutex(false, appName);
             }
             Console.ReadKey();

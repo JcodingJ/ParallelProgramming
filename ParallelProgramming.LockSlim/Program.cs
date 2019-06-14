@@ -31,7 +31,7 @@ namespace ParallelProgramming.LockSlim
                         padlock.ExitWriteLock();
                     }
 
-                    Console.WriteLine($"Entered read lock x = {x}");
+                    Console.WriteLine($"Entered read lock x = {x}.");
                     Thread.Sleep(3000);
 
                     //padlock.ExitReadLock();
