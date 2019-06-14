@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.Concure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.ConcurentBagg", "ParallelProgramming.ConcurentBagg\ParallelProgramming.ConcurentBagg.csproj", "{E5E598EA-6915-4C11-BAF0-D673E224833C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.ProducerConsumer", "ParallelProgramming.ProducerConsumer\ParallelProgramming.ProducerConsumer.csproj", "{6BFF32D2-B28C-44CD-98B3-65024940BD01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{E5E598EA-6915-4C11-BAF0-D673E224833C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E598EA-6915-4C11-BAF0-D673E224833C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E598EA-6915-4C11-BAF0-D673E224833C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFF32D2-B28C-44CD-98B3-65024940BD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFF32D2-B28C-44CD-98B3-65024940BD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFF32D2-B28C-44CD-98B3-65024940BD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFF32D2-B28C-44CD-98B3-65024940BD01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{75014AFA-BFDE-486C-AC24-2F3F5C9ADC5B} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
 		{55DAB22B-4587-434D-AFFE-727E49492542} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
 		{E5E598EA-6915-4C11-BAF0-D673E224833C} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
+		{6BFF32D2-B28C-44CD-98B3-65024940BD01} = {0F57FCB8-1B7C-435E-A8F7-AB75C37F8912}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAB15D68-31A1-4BE4-B06D-C902CDB05FB8}
