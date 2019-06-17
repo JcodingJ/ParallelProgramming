@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.Barrier
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.CountDownn", "ParallelProgramming.CountDownn\ParallelProgramming.CountDownn.csproj", "{F78AFF31-FA7C-42E0-96EE-D8DC27E24D94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming.ManualAndAutoResetEvent", "ParallelProgramming.ManualAndAutoResetEvent\ParallelProgramming.ManualAndAutoResetEvent.csproj", "{92D3460C-C1A3-487E-A751-4A3D9AE44A56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{F78AFF31-FA7C-42E0-96EE-D8DC27E24D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78AFF31-FA7C-42E0-96EE-D8DC27E24D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78AFF31-FA7C-42E0-96EE-D8DC27E24D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D3460C-C1A3-487E-A751-4A3D9AE44A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D3460C-C1A3-487E-A751-4A3D9AE44A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D3460C-C1A3-487E-A751-4A3D9AE44A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D3460C-C1A3-487E-A751-4A3D9AE44A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +168,7 @@ Global
 		{3B8FDD1A-A42A-43A2-84FB-B4A8B622304B} = {D5596B85-C673-4C61-9A59-53FB33AB3098}
 		{E02FE146-7D6D-4367-8CF8-7D6F1C257CC1} = {D5596B85-C673-4C61-9A59-53FB33AB3098}
 		{F78AFF31-FA7C-42E0-96EE-D8DC27E24D94} = {D5596B85-C673-4C61-9A59-53FB33AB3098}
+		{92D3460C-C1A3-487E-A751-4A3D9AE44A56} = {D5596B85-C673-4C61-9A59-53FB33AB3098}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAB15D68-31A1-4BE4-B06D-C902CDB05FB8}
