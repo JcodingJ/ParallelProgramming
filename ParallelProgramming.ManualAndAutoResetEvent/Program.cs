@@ -22,8 +22,8 @@ namespace ParallelProgramming.ManualAndAutoResetEvent
                 evt.Wait();
                 Console.WriteLine($"Here is Your tea");
                 var ok = evt.Wait(1000);
-                
-                if(ok)
+
+                if (ok)
                     Console.WriteLine($"Enjoy Yoru Tea");
                 else
                     Console.WriteLine($"No Tea For U");
